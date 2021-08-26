@@ -10,6 +10,13 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.android.suaapp"
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -18,12 +25,6 @@
     ],
     "ios": {
       "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
     },
     "web": {
       "favicon": "./assets/favicon.png"

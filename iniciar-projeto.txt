@@ -1,0 +1,11 @@
+vai na pasta do projeto abre o cmd e digita
+expo start "Isso irá iniciar o servidor local do expo"
+
+logo após abra outro cmd lista os dispositivos virtuais disponiveis
+emulator -list-avds
+
+Inicie um dos dispositivos virtuais de sua escolha
+emulator -avd {dispositivo} -no-snapshot
+
+Documentação do React Native
+https://docs.expo.dev
